@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>About | Virtual Tour 360 Pura Petitenget!</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <!-- menu bar -->
+    <app-menu></app-menu>
+
+    <!-- content -->
+    <div class="container">
+      <h2 class="mt-3">About</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card mb-4">
+            <img src="../images/pura/1.tarucamplung.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Penulis</h5>
+              <p class="card-text text-center">Wisnu Nanda Putra Sudewa</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card mb-4">
+            <img src="../images/pura/1.tarucamplung.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Pembimbing 1 </h5>
+              <p class="card-text text-center">Padma Nyoman Crisnapati, S.Kom, M.Pd, M.Kom</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card mb-4">
+            <img src="../images/pura/1.tarucamplung.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Pembimbing 2 </h5>
+              <p class="card-text text-center">Rosalia Hadi, S.Kom., M.T</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <app-footer></app-footer>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+      import '../components/app-menu.js';
+      import '../components/app-footer.js';
+      
+      document.addEventListener('DOMContentLoaded', () => {
+        console.log(document);
+
+        // activating menu
+        document.querySelector('#menuAbout').classList.add('active');
+        
+      });
+    </script>
+  </body>
+</html>

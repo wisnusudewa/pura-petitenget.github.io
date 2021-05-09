@@ -3,7 +3,7 @@ class AppFooter extends HTMLElement {
         this.innerHTML = `
             <footer class="footer mt-auto py-3 bg-dark">
                 <div class="container">
-                <span class="text-muted">WNPS@copyright 2021</span>
+                <span class="text-muted">Wisnu_Sudewa90@copyright 2021</span>
                 </div>
             </footer>
         `;

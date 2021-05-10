@@ -17,13 +17,13 @@ class AppMenu extends HTMLElement {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a id="menuBeranda" class="nav-link" href="http://127.0.0.1:5500/index.html">Beranda</a>
+                        <a id="menuBeranda" class="nav-link" href="https://purapetitenget.netlify.app/index.html">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a id="menuVirtualTour" class="nav-link" href="http://127.0.0.1:5500/pages/virtual360/index.htm">Virtual Tour</a>
+                        <a id="menuVirtualTour" class="nav-link" href="https://purapetitenget.netlify.app/pages/virtual360/index.htm">Virtual Tour</a>
                     </li>
                     <li class="nav-item">
-                        <a id="menuTentang" class="nav-link" href="http://127.0.0.1:5500/tentang.html">Tentang</a>
+                        <a id="menuTentang" class="nav-link" href="https://purapetitenget.netlify.app/tentang.html">Tentang</a>
                     </li>
                     </ul>
                 </div>
